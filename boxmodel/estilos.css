@@ -1,0 +1,43 @@
+.header{
+  border: solid 2px red;
+}
+
+.menu{
+
+}
+
+.logo{
+  width: 50px;
+}
+
+
+.menu-lista{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid purple;
+  width: 90%;
+  text-align: right;
+}
+
+.menu-lista li{
+  display: inline-block;
+  border: solid 1px blue;
+  font-size: 25px;
+  padding: 10px;
+  margin: 0 15px;
+  font-family: verdana;
+}
+
+.menu-lista a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

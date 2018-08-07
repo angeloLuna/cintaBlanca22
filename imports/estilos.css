@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "hanalei";
+  src: url("fonts/Hanalei_Fill/HanaleiFill-Regular.ttf");
+}
+
+
+
+.icono-3d{
+  font-size: 160px;
+  color: red;
+}
+
+h1{
+  font-family: hanalei
+}
+
