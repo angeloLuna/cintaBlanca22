@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+
+.header{
+}
+
+.nav{
+  border-bottom: 1px solid;
+  background: #bbb7cc;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  width: 40%;
+  /*border: 1px solid green;*/
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu i{
+  font-size: 40px;
+  color: #3b0a84;
+}
