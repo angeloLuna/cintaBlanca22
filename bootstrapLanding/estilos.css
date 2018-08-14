@@ -1,0 +1,33 @@
+.contenedor-carrusel{
+  height: 500px;
+}
+
+.img-up-15{
+  transform: translateY(-15%);
+}
+
+.img-up-10{
+  transform: translateY(-10%);
+}
+
+.discografia-titulo{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.tarjeta-disco{
+  margin: 20px;
+}
+
+
+@media only screen and (max-width: 540px) {
+    .contenedor-carrusel{
+      height: 200px;
+    }
+    .discografia-titulo{
+      padding: 0;
+    }
+    .tarjeta-disco{
+      margin: 5px 0;
+    }
+}
