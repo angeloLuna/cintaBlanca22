@@ -21,7 +21,5 @@ const piedra = () =>{
     resultado.innerHTML = `La computadora elige ${compu}, ganaste!!`
   }
 }
-
-
 btnPiedra.addEventListener("click", piedra)
 

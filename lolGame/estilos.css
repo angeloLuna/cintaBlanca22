@@ -1,0 +1,142 @@
+body{
+  font-family: serif;
+}
+/*Estilos de la navegación*/
+.navbar-custom{
+  background: #121212;
+  height: 50px;
+
+  padding: 0;
+}
+/*Ajustar la altura del div interior para que sea del 100% del menu*/
+.nav-container-custom{
+  height: 100%;
+}
+.menu{
+  height: 100%;
+}
+
+.menu-item-active{
+  border-bottom: #c9aa71 2px solid;
+  height: 100%;
+}
+
+.navbar-custom .menu li a{
+  color: #c9aa71;
+  font-family: serif;
+}
+/*:hover especifica los estilos de un elemento cuando se coloca el cursor encima*/
+.navbar-custom .menu li a:hover{
+  color: #f1e6d0;
+}
+
+/*Estilos de la portada*/
+.portada{
+  background-image: url("https://universe.leagueoflegends.com/images/latestBg_Wallpaper.png");
+}
+.map{
+  background-image: url("img/map.jpeg");
+  background-size: 100%;
+  height: 200px;
+}
+
+.portada-container{
+  padding: 50px 0;
+}
+
+.titulo-container{
+  background: #0f0f0f;
+  height: 200px;
+}
+.titulo{
+  border-top:4px solid #c9aa71;
+  height: 240px;
+  margin-top: -20px;
+  background: #16171b;
+  text-align: center;
+  color: #937241;
+  padding: 40px 0;
+}
+
+.mini-text{
+  color: #a59c83;
+}
+
+/*Estilos de main */
+
+.main{
+  background: black;
+}
+
+
+.contenedor-titulo-juego{
+  height: 150px;
+  background-image: url("https://universe.leagueoflegends.com/images/trendingBackground.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position-y: 47%;
+  background-position-x: 22%;
+}
+
+
+.titulo-juego{
+  color: #937241;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.2);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resultado{
+  display: none;
+}
+
+.juego{
+  padding: 50px 0;
+}
+
+.card-custom{
+  border-radius: 0;
+  background: blue;
+}
+
+
+/*Seccion del universo*/
+.universo{
+  height: 500px;
+  background-image: url("http://static.t13.cl/images/sizes/1200x675/1508151008-98299584gettyimages-497707356.jpg");
+  padding-top: 100px;
+}
+
+.titulos{
+  border-radius: 5px;
+  background: rgba(0, 0, 0, .4);
+  color: white;
+  height: 200px;
+  font-family: arial;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
