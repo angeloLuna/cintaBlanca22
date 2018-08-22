@@ -1,0 +1,77 @@
+/*.container-custom{
+  border: 1px solid;
+}
+
+.titulo{
+  border: solid 1px red;
+}
+*/
+.slider-custom{
+
+}
+
+.cards-container{
+  padding-top: 50px;
+  background: #555555;
+}
+/*inter-cards{
+  display: flex;
+  justify-content: space-around;
+}*/
+
+.card-custom{
+  margin-bottom: 20px;
+}
+
+.bio{
+  padding-top: 50px;
+}
+
+.background{
+  background-image: url("https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FPoppy_0.jpg&resize=:1800");
+  background-position: right top;
+  /*background-size: cover;*/
+  /*transform: scale(1);*/
+}
+
+
+
+.background .transparent{
+  height: 600px;
+  background: rgba(0,0,0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background .transparent h2{
+  color: white;
+}
+
+@media screen and (max-width: 540px){
+  .background{
+    background: none;
+    height: 100px;
+  }
+
+  .background .transparent{
+    height: 100px;
+    background: none;
+  }
+
+  .background .transparent h2{
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
