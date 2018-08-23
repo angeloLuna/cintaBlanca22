@@ -1,15 +1,17 @@
-let alumno = {
-  nombre: "angelo",
-  edad: 28,
-  email: "angelo@jelpmi.mx",
-  direccion: {
-    calle: "agustin melgar",
-    cp: "06140",
-    exterior: "44"
-  },
-  batch: [4, 8, 9, 10]
-}
-console.log(alumno.direccion.calle)
+// let alumno = {
+//   nombre: "angelo",
+//   edad: 28,
+//   email: "angelo@jelpmi.mx",
+//   direccion: {
+//     calle: "agustin melgar",
+//     cp: "06140",
+//     exterior: "44"
+//   },
+//   batch: [4, 8, 9, 10]
+// }
+// console.log(alumno.direccion.calle)
+
+// console.log(check.checked)
 
 // let personaje = {
 //     "name": "Luke Skywalker", 
@@ -45,6 +47,56 @@ console.log(alumno.direccion.calle)
 // }
 
 // console.log(personaje.films[0])
+
+
+
+let nombre = document.getElementById('nombre')
+let edad = document.getElementById('edad')
+let email = document.getElementById('email')
+let pinia = document.getElementById('pinia')
+let btn = document.getElementById('btnSubmit')
+
+let dName = document.getElementById("displayName")
+let dAge = document.getElementById("displayAge")
+let dEmail = document.getElementById("displayEmail")
+let dPinia = document.getElementById("displayPinia")
+let obj = {}
+
+
+
+const llenar = () =>{
+  obj = {
+    nombre: nombre.value,
+    edad: edad.value,
+    email: email.value,
+    pinia: pinia.value
+  }
+
+  dName.innerHTML = obj.nombre;
+  dAge.innerHTML = obj.edad;
+  dEmail.innerHTML = obj.email;
+  dPinia.innerHTML = obj.pinia
+
+
+
+  console.log(obj)
+}
+
+
+btn.addEventListener("click", llenar)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

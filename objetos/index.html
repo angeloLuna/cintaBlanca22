@@ -11,7 +11,27 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="form-group">
+      <label for="nombre">Email address</label>
+      <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <input type="text" id="edad">
+    <input type="text" id="email">
+
+    <input type="text" id="pinia">
+
+    <button id="btnSubmit" class="btn btn-primary">Submit</button>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title" id="displayName"></h5>
+        <h6 id="displayAge" class="card-subtitle mb-2 text-muted"></h6>
+        <p id="displayEmail" class="card-text"></p>
+        <p id="displayPinia" class="card-text"></p>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
