@@ -8,6 +8,14 @@ body{
 
   padding: 0;
 }
+
+/*.absolute{
+  height: 50%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}*/
 /*Ajustar la altura del div interior para que sea del 100% del menu*/
 .nav-container-custom{
   height: 100%;
@@ -106,7 +114,7 @@ body{
 
 
 /*Seccion del universo*/
-.universo{
+/*.universo{
   height: 500px;
   background-image: url("http://static.t13.cl/images/sizes/1200x675/1508151008-98299584gettyimages-497707356.jpg");
   padding-top: 100px;
@@ -122,7 +130,7 @@ body{
   padding-top: 30px;
 }
 
-
+*/
 
 
 
